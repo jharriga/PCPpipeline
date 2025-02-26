@@ -1,0 +1,10 @@
+Log for pmlogger on a48d01538e03 started Wed Feb 26 20:21:34 2025
+
+[Wed Feb 26 20:21:34] pmlogger(4644) Info: Start
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /tmp/test/Workloads/pcp_openssl.cfg
+Config parsed
+Starting logger for host "a48d01538e03" via "local:"
+Archive basename: /tmp/test/archive_openssl.20250226202133/100s_4threads_openssl
+[Wed Feb 26 20:31:14] pmlogger(4644) Info: pmlogger: Caught signal 10, exiting
+
+Log finished Wed Feb 26 20:31:14 2025
