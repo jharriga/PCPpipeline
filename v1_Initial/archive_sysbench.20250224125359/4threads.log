@@ -1,0 +1,10 @@
+Log for pmlogger on kamrui started Mon Feb 24 12:53:59 2025
+
+[Mon Feb 24 12:53:59] pmlogger(4314) Info: Start
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /home/PCPpipeline/Initial/pcp_sysbench.cfg
+Config parsed
+Starting logger for host "kamrui" via "local:"
+Archive basename: /home/PCPpipeline/Initial/archive_sysbench.20250224125359/4threads
+[Mon Feb 24 12:56:09] pmlogger(4314) Info: pmlogger: Caught signal 10, exiting
+
+Log finished Mon Feb 24 12:56:09 2025
