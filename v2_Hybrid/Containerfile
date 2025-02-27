@@ -11,16 +11,4 @@ RUN dnf install -y --setopt=tsflags=nodocs \
 # is this even needed??
 RUN systemctl enable pmcd pmie pmlogger pmproxy
 
-# Create scratch 'test' dir and COPY in Files
-##RUN mkdir -p /tmp/test
-##WORKDIR /tmp/test
-##COPY . .
-##RUN ls -la /tmp/test
-
-# Copy in Workload files
-##COPY run_test.sh run_test.sh
-##COPY pcp_functions.inc pcp_functions.inc
-##COPY CPU/ . 
-##RUN ls -la /tmp/test
-
 CMD ["/usr/sbin/init"]
