@@ -1,0 +1,10 @@
+Log for pmlogger on b9b93ae60f33 started Wed Mar  5 15:45:26 2025
+
+[Wed Mar  5 15:45:26] pmlogger(28202) Info: Start
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /tmp/test/Workloads/pcp_openssl.cfg
+Config parsed
+Starting logger for host "b9b93ae60f33" via "local:"
+Archive basename: /tmp/test/archive_openssl.20250305154526/100s_256threads_openssl
+[Wed Mar  5 15:55:07] pmlogger(28202) Info: pmlogger: Caught signal 10, exiting
+
+Log finished Wed Mar  5 15:55:07 2025

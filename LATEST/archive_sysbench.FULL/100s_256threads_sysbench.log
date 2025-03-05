@@ -1,0 +1,10 @@
+Log for pmlogger on b9b93ae60f33 started Wed Mar  5 15:34:28 2025
+
+[Wed Mar  5 15:34:28] pmlogger(25231) Info: Start
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /tmp/test/Workloads/pcp_sysbench.cfg
+Config parsed
+Starting logger for host "b9b93ae60f33" via "local:"
+Archive basename: /tmp/test/archive_sysbench.20250305153428/100s_256threads_sysbench
+[Wed Mar  5 15:44:09] pmlogger(25231) Info: pmlogger: Caught signal 10, exiting
+
+Log finished Wed Mar  5 15:44:09 2025
