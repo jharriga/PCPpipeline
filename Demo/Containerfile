@@ -13,14 +13,18 @@ RUN dnf install -y --setopt=tsflags=nodocs \
 # Doesn't pcp-zeroconf already do this?
 RUN systemctl enable pmcd pmie pmlogger pmproxy
 
+# Make shell sccripts executable
+RUN chmod 755 *.sh
+
 # Configure RFchassis openmetrics scripting
 COPY RFvars.cfg /var/lib/pcp/pmdas/openmetrics/config.d/.
 COPY RFchassis.sh /var/lib/pcp/pmdas/openmetrics/config.d/.
-RUN chmod 755 /var/lib/pcp/pmdas/openmetrics/config.d/RFchassis.sh
 
 # Configure Workload openmetrics scripting
 COPY openmetrics_workload.txt /tmp/.
 COPY workload.url /var/lib/pcp/pmdas/openmetrics/config.d/.
+
+# Activate openmetrics additions
 RUN systemctl restart pmcd
 
 CMD ["/usr/sbin/init"]
