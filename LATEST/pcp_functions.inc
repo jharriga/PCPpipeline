@@ -68,8 +68,6 @@ pcp_start()
     pgrep pmlogger > /dev/null
     if [ $? != 0 ]; then
         echo "FAILED to Start PCP private pmlogger. Aborting test."; echo
-# Reset GPU Frequencies
-        restore_gpu_freq
         exit 2
     fi
 
