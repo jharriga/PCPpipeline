@@ -1,0 +1,16 @@
+Log for pmlogger on n42-h20-000-r7625.rdu3.labs.perfscale.redhat.com started Mon Mar 17 11:00:13 2025
+
+[Mon Mar 17 11:00:13] pmlogger(3976712) Info: Start
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /home/john/PCPpipeline/RFchassis/OpenMetrics/pcp_sysbench.cfg
+Warning [/home/john/PCPpipeline/RFchassis/OpenMetrics/pcp_sysbench.cfg, line 20]
+Problem with lookup for metric "filesys.uuid" ... logging not activated
+Reason: Unknown metric name
+Warning [/home/john/PCPpipeline/RFchassis/OpenMetrics/pcp_sysbench.cfg, line 21]
+Problem with lookup for metric "filesys.type" ... logging not activated
+Reason: Unknown metric name
+Config parsed
+Starting logger for host "n42-h20-000-r7625.rdu3.labs.perfscale.redhat.com" via "local:"
+Archive basename: /home/john/PCPpipeline/RFchassis/OpenMetrics/archive.20250317110013/sysbenchTEST
+[Mon Mar 17 11:09:53] pmlogger(3976712) Info: pmlogger: Caught signal 10, exiting
+
+Log finished Mon Mar 17 11:09:53 2025

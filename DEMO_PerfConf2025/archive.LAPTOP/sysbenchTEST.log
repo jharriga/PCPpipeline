@@ -1,0 +1,10 @@
+Log for pmlogger on 63f420f59478 started Tue Mar 18 18:33:28 2025
+
+[Tue Mar 18 18:33:28] pmlogger(6621) Info: Start
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /tmp/test/pcp_sysbench.cfg
+Config parsed
+Starting logger for host "63f420f59478" via "local:"
+Archive basename: /tmp/test/archive.20250318183328/sysbenchTEST
+[Tue Mar 18 18:43:09] pmlogger(6621) Info: pmlogger: Caught signal 10, exiting
+
+Log finished Tue Mar 18 18:43:09 2025
