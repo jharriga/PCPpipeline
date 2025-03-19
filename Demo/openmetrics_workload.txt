@@ -1,7 +1,0 @@
-iteration 0
-started 0
-finished 0
-numthreads 0
-runtime NaN
-throughput NaN
-latency NaN
