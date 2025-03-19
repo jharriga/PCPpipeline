@@ -14,7 +14,7 @@ RUN dnf install -y --setopt=tsflags=nodocs \
 RUN systemctl enable pmcd pmie pmlogger pmproxy
 
 # Ensure scripts are executable
-RUN chmod 755 *.sh
+RUN chmod 755 run_sysbench.sh
 
 # Configure RFchassis openmetrics scripting
 COPY OpenMetrics/RFvars.cfg /var/lib/pcp/pmdas/openmetrics/config.d/.
