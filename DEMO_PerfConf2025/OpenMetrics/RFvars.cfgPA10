@@ -1,1 +1,8 @@
-crap
+# VARs used by RFchassis.sh 
+
+# RFchassis variables
+RFchassis_ip=10.26.9.132
+RFchassis_user=admin
+RFchassis_passwd='admin'
+RFchassis_url=/redfish/v1/Chassis/1/Self/Power
+RFchassis_metric=PowerConsumed
