@@ -4,5 +4,5 @@
 RFchassis_ip=10.26.9.106
 RFchassis_user=admin
 RFchassis_passwd='admin'
-RFchassis_url=/redfish/v1/Chassis/1/Self/Power
+RFchassis_url=/redfish/v1/Chassis/Self/Power
 RFchassis_metric=AverageConsumed
