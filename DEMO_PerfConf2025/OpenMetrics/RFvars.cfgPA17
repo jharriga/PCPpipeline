@@ -1,7 +1,7 @@
 # VARs used by RFchassis.sh 
 
 # RFchassis variables
-RFchassis_ip=10.26.8.129
+RFchassis_ip=10.26.8.131
 RFchassis_user=ADMIN
 RFchassis_passwd='100yard-'
 RFchassis_url=/redfish/v1/Chassis/1/Power
