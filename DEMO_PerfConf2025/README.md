@@ -16,11 +16,6 @@
   * View all metric results: 'pmdumplog -a <archive-name>' > HOLD
 # GRAFANA
 * On the HOST
-  * Run PCP archive-analysis Container: 'podman run \  
-    --name pcp-archive-analysis -t --rm \  
-    --security-opt label=disable \  
-    -p 127.0.0.1:3000:3000 \  
-    -v $PWD/Archives:/archives \  
-    quay.io/performancecopilot/archive-analysis'    
+  * Run PCP archive-analysis Container: './archive-analysis.sh'   
   * Connect:  http://localhost:3000/dashboards  
-  * Select Dashboard: ‘PCP Archive-Analysis (Valkey)’ and set Time Window for the PCP Archive   
+  * Select Dashboard: ‘PCP Archive Analysis’ and set Time Window for the PCP Archive   
