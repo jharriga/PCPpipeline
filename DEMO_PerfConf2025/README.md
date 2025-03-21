@@ -8,7 +8,8 @@
 	When run_sysbench.sh completes, PCP-Archive directory appears on Host
 # View Results
 * See Archive Timestamps and Hostname: 'pmloglabel -l <archive-name>'
-* View metric results: 'pmrep -t 5 -p -a <archive-name> openmetrics.workload.throughput openmetrics.RFchassis denki.rapl'
+* View some metric results: 'pmrep -t 5 -p -a <archive-name> openmetrics.workload.throughput openmetrics.RFchassis denki.rapl'
+* View all metric results: 'pmdumplog -a <archive-name>' > HOLD
 # GRAFANA
 * Run PCP archive-analysis Container: 'podman run \  
     --name pcp-archive-analysis -t --rm \  
