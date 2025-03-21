@@ -1,6 +1,6 @@
 # USAGE
 * SUT (System Under Test) requires Packages: 'podman make git'
-* HOST requires Packages: 'podman pcp-zeroconf'
+* HOST requires Packages: 'podman pcp pcp-system-tools'
 * On the SUT:
   * 'git clone https://github.com/jharriga/PCPpipeline' ; cd PCPpipeline/DEMO_PC2025
   * Make all scripts executable: 'find . -type f -name "*.sh" -print0 |xargs -0 chmod 755'
