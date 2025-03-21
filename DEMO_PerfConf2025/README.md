@@ -4,7 +4,7 @@
 * Make all scripts executable: 'find . -type f -name "*.sh" -print0 |xargs -0 chmod 755'
 * Edit OpenMetrics/RFvars.cfg with your Redfish url's and credentials
 * Build and run Container: 'make'
-* Start workload: 'podman exec  -w /tmp/test pcp-test ./run_sysbench.sh  
+* Start workload: 'podman exec  -w /tmp/test pcp-test ./run_sysbench.sh'  
 	When run_sysbench.sh completes, PCP-Archive directory appears on Host
 # View Results
 * See Archive Timestamps and Hostname: 'pmloglabel -l <archive-name>'
