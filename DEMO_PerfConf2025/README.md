@@ -23,4 +23,4 @@
     -v $PWD/Archives:/archives \  
     quay.io/performancecopilot/archive-analysis'    
   * Connect:  http://localhost:3000/dashboards  
-  * Select Dashboard: ‘PCP Archive-Analysis (Valkey)’ and set Time Window   
+  * Select Dashboard: ‘PCP Archive-Analysis (Valkey)’ and set Time Window for the PCP Archive   
