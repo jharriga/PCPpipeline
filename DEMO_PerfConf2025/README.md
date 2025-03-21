@@ -1,5 +1,6 @@
 # USAGE
-* Requires 'podman' and 'make'
+* Host requires: 'dnf install podman make git pcp-zeroconf'
+* 'git clone https://github.com/jharriga/PCPpipeline' ; cd PCPpipeline/DEMO_PC2025
 * Make all scripts executable: 'find . -type f -name "*.sh" -print0 |xargs -0 chmod 755'
 * Edit OpenMetrics/RFvars.cfg with your Redfish url's and credentials
 * Build and run Container: 'make'
