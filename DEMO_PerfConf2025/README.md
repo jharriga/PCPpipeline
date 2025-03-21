@@ -11,9 +11,9 @@
 # View Results
 * Copy the PCP Archives to Host  
 * On the HOST:
-  * See Archive Timestamps and Hostname: 'pmloglabel -l <archive-name>'
-  * View some metric results: 'pmrep -t 5 -p -a <archive-name> openmetrics.workload.throughput openmetrics.RFchassis denki.rapl'
-  * View all metric results: 'pmdumplog -a <archive-name>' > HOLD
+  * See Archive Timestamps and Hostname: 'pmloglabel -l archive-name'
+  * View some metric results: 'pmrep -t 5 -p -a archive-name openmetrics.workload.throughput openmetrics.RFchassis denki.rapl'
+  * View all metric results: 'pmdumplog -a archive-name' > HOLD
 # GRAFANA
 * On the HOST
   * Run PCP archive-analysis Container: './archive-analysis.sh'   
