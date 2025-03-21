@@ -24,8 +24,8 @@ iteration_results="/tmp/iteration_results.txt"   # one iteration results
 full_results="/tmp/workload_results.txt"         # full test run results
 # Define Workload
 num_iterations=5    # Number of test run iterations
-#iteration_pause=60
-iteration_pause=15
+iteration_pause=60
+##iteration_pause=15   # Shorter pause between iterations
 runtime=100         # Runtime duration for each workload test iteration
 thread_cnt=$(nproc)                            # use all cores
 # TBD Define 'awk' based Workload stats parsing string VARIABLES
