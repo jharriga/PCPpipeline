@@ -3,6 +3,6 @@
 # RFchassis variables
 RFchassis_ip=10.6.63.14
 RFchassis_user=quads
-RFchassis_passwd='rdu3%402024'
+RFchassis_passwd='rdu3%402644'
 RFchassis_url=/redfish/v1/Chassis/System.Embedded.1/Power
 RFchassis_metric=PowerConsumed
