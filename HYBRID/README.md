@@ -8,3 +8,9 @@ testHYBRID.sh: example script
 * runs example workload (sysbench)
 * stops archiving, creates archive ( see ../archive.timestamp )
 
+# QUESTIONS
+* which pcp_spec.cfg file is being used by pcp-start()?
+* wrapper elements
+  * cmdline
+  * regex for openmetrics.workload
+  * PCP metric spec
