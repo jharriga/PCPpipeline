@@ -6,5 +6,5 @@ Demonstrates hybrid approach to isolate PCP actions from Workload automation
 testHYBRID.sh: example script 
 * starts archiving
 * runs example workload (sysbench)
-* stops archiving, creates archive (see ../archive.<timestamp>
+* stops archiving, creates archive ( see ../archive.timestamp )
 
