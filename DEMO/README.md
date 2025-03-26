@@ -14,7 +14,7 @@
   * See Archive Timestamps and Hostname: 'pmloglabel -l archive-name'
   * View some metric results: 'pmrep -t 5 -p -a archive-name openmetrics.workload.throughput openmetrics.RFchassis denki.rapl'
   * View all metric results: 'pmdumplog -a archive-name' > HOLD
-  * Create CSV of select Metrics (pwrUsage): 'pcp2csv -F pwrusage.csv -a archive-name openmetrics.RFchassis denki.rapl'
+  * Create CSV of select Metrics (pwrUsage): 'pcp2csv -F results.csv -a archive-name openmetrics.workload.throughput openmetrics.RFchassis denki.rapl'
 # GRAFANA
 * On the HOST
   * Run PCP archive-analysis Container: './archive-analysis.sh'   
