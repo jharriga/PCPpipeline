@@ -69,10 +69,11 @@ pcp_start()
     if [ $? != 0 ]; then
         echo "FAILED to Start PCP private pmlogger. Aborting test."; echo
 # Reset GPU Frequencies
-        restore_gpu_freq
+#        restore_gpu_freq
         exit 2
     fi
-
+# Copy pmlogger cfg file to the archive dir
+    cp "${cfg_file}" "${archive_dir}/${archive_name}_pmlogger.cfg"
 }
 
 pcp_stop()
