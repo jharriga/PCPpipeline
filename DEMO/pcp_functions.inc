@@ -55,7 +55,7 @@ pcp_start()
     archive_dir="$3"
     archive_name="$4"
 
-    mkdir -p ${pcp_archive_dir}
+    mkdir -p ${archive_dir}
 
 # Run PCP logger
 # JTH - VERIFY success, ensure pmlogger starts
